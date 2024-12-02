@@ -1,24 +1,34 @@
 {
-	"name": "obsidian-sample-plugin",
-	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"name": "obsidian-ai-hub",
+	"version": "0.1.0",
+	"description": "A modular AI integration hub for Obsidian.",
 	"main": "main.js",
 	"scripts": {
-		"dev": "node esbuild.config.mjs",
-		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
-		"version": "node version-bump.mjs && git add manifest.json versions.json"
+		"build": "node esbuild.config.js",
+		"watch": "esbuild src/main.ts --bundle --outfile=main.js --platform=node --target=es2020 --format=cjs --external:obsidian --watch",
+		"prepare": "npm run build"
 	},
-	"keywords": [],
-	"author": "",
+	"keywords": [
+		"obsidian-plugin",
+		"AI",
+		"Google Gemini",
+		"ChatGPT",
+		"Claude",
+		"LLaMA"
+	],
+	"author": "Hish",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^16.11.6",
 		"@typescript-eslint/eslint-plugin": "5.29.0",
 		"@typescript-eslint/parser": "5.29.0",
 		"builtin-modules": "3.3.0",
-		"esbuild": "0.17.3",
+		"esbuild": "^0.17.3",
 		"obsidian": "latest",
 		"tslib": "2.4.0",
 		"typescript": "4.7.4"
+	},
+	"dependencies": {
+		"@google/generative-ai": "^0.21.0"
 	}
 }
