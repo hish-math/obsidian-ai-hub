@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-ai-hub",
-	"version": "0.1.0",
-	"description": "A modular AI integration hub for Obsidian.",
+	"name": "ai-hub",
+	"version": "1.0.0",
+	"description": "Integrate with AI models (Gemini, Claude,...) to quickly generate and refine notes.",
 	"main": "main.js",
 	"scripts": {
 		"build": "node esbuild.config.js",
@@ -16,7 +16,7 @@
 		"Claude",
 		"LLaMA"
 	],
-	"author": "Hish",
+	"author": "Hishmat Salehi",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^16.11.6",
