@@ -1,10 +1,10 @@
 {
-	"id": "obsidian-ai-hub",
-	"name": "AI Hub for Obsidian",
+	"id": "ai-hub",
+	"name": "AI integration Hub",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "A modular AI integration hub for Obsidian.",
-	"author": "Hish",
+	"description": "Integrate with AI models (Gemini, Claude,...) to quickly generate and refine notes.",
+	"author": "Hishmat Salehi",
 	"authorUrl": "https://github.com/hish-math",
 	"fundingUrl": "https://github.com/sponsors/hish-math",
 	"isDesktopOnly": false
