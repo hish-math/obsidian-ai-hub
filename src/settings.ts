@@ -23,7 +23,6 @@ export class AIHubSettingTab extends PluginSettingTab {
 		const { containerEl } = this;
 
 		containerEl.empty();
-		containerEl.createEl("h2", { text: "AI Hub Settings" });
 
 		new Setting(containerEl)
 			.setName("Google AI API Key")

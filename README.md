@@ -1,6 +1,6 @@
-# Obsidian AI Hub Plugin
+# AI integration Hub Plugin
 
-**Obsidian AI Hub** is a plugin for [Obsidian](https://obsidian.md) that integrates AI services like Google AI Studio, allowing you to generate content directly within your notes.
+**AI integration Hub** is a plugin for [Obsidian](https://obsidian.md) that integrates AI services like Google Gemini, allowing you to generate AI content directly within your notes.
 
 ## Features
 
@@ -11,33 +11,10 @@
 
 ## Installation
 
-### Manual Installation
-
-1. **Download the Plugin**
-
-   - Clone or download the `obsidian-ai-hub` repository to your local machine.
-
-2. **Build the Plugin**
-
-   - Ensure you have Node.js v18+ installed.
-   - Open a terminal in the plugin directory.
-   - Install dependencies:
-
-     ```bash
-     npm install
-     ```
-
-   - Build the plugin:
-
-     ```bash
-     npm run build
-     ```
-
-3. **Install the Plugin in Obsidian**
-
-   - Copy the entire `obsidian-ai-hub` folder into your Obsidian vault's `.obsidian/plugins/` directory.
-   - Restart Obsidian or reload plugins.
-   - Go to **Settings** > **Community Plugins** and enable **Obsidian AI Hub**.
+1. Go to Obsidian Settings.
+2. Click on `Community plugins`.
+3. Click on `Browse`.
+4. Search "ai hub" and select `AI integration Hub`.
 
 ## Configuration
 
@@ -53,8 +30,8 @@
 
    - Open a markdown note.
    - Select the text you want to use as a prompt.
-   - Click the **"Generate Content with AI"** ribbon icon on the left sidebar.
-     - Alternatively, open the command palette (`Ctrl+P` or `Cmd+P`) and run **"Generate Content with AI"**.
+     - Click the **"Generate content"** ribbon icon on the left sidebar.
+     - Alternatively, open the command palette (`Ctrl+P` or `Cmd+P`) and run **"Generate content"**.
 
 2. **View the Result**
 
@@ -97,7 +74,7 @@
 
 ## Future Enhancements
 
-- Plan to integrate with ChatGPT, Claude, Llama, and other AI services.
+- Plan to integrate with OpenRouter, ChatGPT, Claude, Llama, and other AI services.
 - Options for inserting content without replacing text, custom templates, and more.
 
 ## Contributing
