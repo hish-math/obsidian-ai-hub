@@ -1,6 +1,6 @@
-# Obsidian AI Hub Plugin
+# AI Hub Plugin
 
-**Obsidian AI Hub** is a plugin for [Obsidian](https://obsidian.md) that integrates AI services like Google AI Studio, allowing you to generate content directly within your notes.
+**AI Hub** is a plugin for [Obsidian](https://obsidian.md) that integrates AI services like Google Gemini, allowing you to generate AI content directly within your notes.
 
 ## Features
 
