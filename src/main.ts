@@ -55,7 +55,7 @@ export default class AIHubPlugin extends Plugin {
 	addRibbonButton() {
 		const ribbonIconEl = this.addRibbonIcon(
 			"brain-circuit",
-			"Generate Content with AI",
+			"Generate content",
 			async () => {
 				const activeLeaf =
 					this.app.workspace.getActiveViewOfType(MarkdownView);
@@ -102,8 +102,5 @@ export default class AIHubPlugin extends Plugin {
 				}
 			}
 		);
-
-		// Optional: Add a tooltip to the ribbon icon
-		ribbonIconEl.setAttribute("aria-label", "Generate Content with AI");
 	}
 }

@@ -5,7 +5,7 @@ import AIHubPlugin from "./main";
 export function registerCommands(plugin: AIHubPlugin) {
 	plugin.addCommand({
 		id: "generate-content",
-		name: "Generate Content with AI",
+		name: "Generate content",
 		editorCallback: async (
 			editor: Editor,
 			ctx: MarkdownView | MarkdownFileInfo
