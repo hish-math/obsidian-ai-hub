@@ -6,7 +6,6 @@
 
 - **Generate AI Content**: Select text in your note and generate AI-powered content to replace or expand it.
 - **Ribbon Button for Quick Access**: Use the ribbon button to quickly generate content with AI.
-- **Modular Integration**: Designed to be modular, so you can integrate with other AI APIs like ChatGPT, Claude, or Llama in the future. **To be implemented.**
 - **Customizable Settings**: Configure your API key and select the AI model in the plugin settings.
 
 ## Installation
@@ -74,8 +73,9 @@
 
 ## Future Enhancements
 
-- Plan to integrate with OpenRouter, ChatGPT, Claude, Llama, and other AI services.
-- Options for inserting content without replacing text, custom templates, and more.
+- Plan to integrate with OpenRouter, and other AI services.
+- Options for inserting content without replacing text.
+- Custom prompt templates, and more.
 
 ## Contributing
 
