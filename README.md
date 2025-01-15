@@ -1,10 +1,10 @@
 # AI integration Hub Plugin
 
-**AI integration Hub** is a plugin for [Obsidian](https://obsidian.md) that integrates AI services like Google Gemini, allowing you to generate AI content directly within your notes.
+**AI integration Hub** is a plugin for [Obsidian](https://obsidian.md) that integrates with AI services like Google Gemini, allowing you to generate AI content directly within your Obsidian notes.
 
 ## Features
 
-- **Generate AI Content**: Select text in your note and generate AI-powered content to replace or expand it.
+- **Generate AI Content**: Select text in your note as the prompt, and generate AI-powered content to replace it.
 - **Ribbon Button for Quick Access**: Use the ribbon button to quickly generate content with AI.
 - **Customizable Settings**: Configure your API key and select the AI model in the plugin settings.
 
